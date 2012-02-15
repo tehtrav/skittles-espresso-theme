@@ -2,7 +2,7 @@
 
 Skittles is an [Espresso][esp] theme using bright neon colors & a dark background. I've focused mainly on styling languages—CSS & LESS, the HTML, PHP & JS coloring could use some love but they work fine.
 
-For LESS coloring to work, install the [LESS Sugar][https://github.com/hawx/LESS.sugar] by Hawx
+For LESS coloring to work, install the [LESS Sugar by Hawx][less-sugar].
 
 ## Preview (CSS & LESS)
 
@@ -12,3 +12,4 @@ Feel free to contact me at [Twitter][twitter].
 
 [esp]: http://macrabbit.com/espresso/
 [twitter]: http://twitter.com/tehtrav
+[less-sugar]: https://github.com/hawx/LESS.sugar
