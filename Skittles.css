@@ -1,0 +1,202 @@
+/*
+    @theme Laser Light Show
+    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
+    @author Travis Lehman - http://www.twitter.com/tehtrav
+    @version 1.0
+    
+    A colorful & vibrant Espresso theme, 
+    mostly focused on front-end languages.
+*/
+
+/* @group Global syntax coloring */
+
+@base {
+	color: #f8f8f8;
+	background-color: rgba(36,23,43,.96);
+	insertion-point-color: #fff;
+	selection-background-color: rgba(50,90,110,1);
+	current-line-background-color: rgba(255,255,255,.05);
+	border-color: #b163cf;
+    spell-check: disabled;
+}
+
+comment {
+	color: rgba(255,255,255,.35);
+	font-style: italic;
+	background: none;
+}
+
+tag {
+	color: #739fd7;
+	
+}
+
+attribute-name {
+	color: #9cbfef;
+}
+
+attribute-value {
+	color: #63ae40;
+}
+
+literal.keyword.bool {
+	color:#fba3c2;
+}
+
+
+/* @end */
+
+/* @group HTML*/
+
+tag.doctype {
+	color: #4c6b92;
+}
+
+/* @end */
+
+/* @group Javascript*/
+
+support.class {
+	color: #af96b3;
+}
+
+keyword {
+	color: #ea8e67;
+}
+
+storage.type {
+	color: #98cf4f;
+}
+
+constant.numeric {
+	color: #3387cc;
+}
+
+support.function {
+	color: #bad883;
+}
+
+string.quoted {
+	color: #3587a0;
+}
+
+variable.parameter.function {
+	color: #377acf;
+}
+
+js name,
+variable {
+    color: #9f85d2;
+}
+
+/* @end */
+
+/* @group CSS & LESS */
+
+css, less {
+    spell-check: disabled;
+}
+
+comment.line.less, 
+comment.block.less {
+	background: rgba(255,255,255,0);
+}
+
+
+css property-list punctuation,
+less property-list punctuation,
+css selector,
+less selector {
+	color: #ad97d8;
+}
+
+css property-list property-value punctuation,
+less property-list property-value punctuation {
+    color: rgba(160,200,90,.9);
+}
+
+css keyword,
+css property-list > property-value,
+css function > name,
+less keyword,
+less property-list > property-value,
+less function > name {
+    color: #c7e4ab;
+}
+
+css constant.numeric, 
+css constant.language,
+less constant.numeric, 
+less constant.language {
+    color: #c9e7ab;
+}
+
+css string.quoted,
+less string.quoted{
+    color: #3fe4bf;
+}
+
+css property-list > property-name,
+less property-list > property-name { 
+	color: rgba(225, 98, 192, 0.8); 
+}
+
+less variable {
+	color: #50a9db;
+}
+
+less mixin {
+	color: #f69947;
+}
+
+less mixin punctuation.end,
+less mixin punctuation.begin {
+	color: #f69947;
+}
+
+less mixin arguments {
+	color: #5b9eaa;
+}
+
+/* @end */
+/* @group PHP*/
+
+identifier.function.import > name {
+	color: #b56e50;
+}
+
+operator {
+	color: #e28964;
+}
+
+identifier.function  {
+	color: #dad085;
+}
+
+literal.numeric.integer {
+	color: #3387cc;
+}
+
+/* @end */
+
+/* @group ColdFusion*/ /* You gotta have installed the ColdFusion Sugar*/
+entity.name.tag.cfm {
+	color: #81ACA5;
+}
+
+source.sql {
+	color: #E1F286;
+}
+
+entity.name.tag.cfquery.cfm, entity.name.tag.cfoutput.cfm {
+	color: #BC9541;
+}
+
+/* @end */
+
+/* @group Ruby*/
+/* @end */
+
+/* @group jQuery*/
+/* @end */
+
