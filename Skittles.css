@@ -1,8 +1,8 @@
 /*
-    @theme Laser Light Show
+    @theme Skittles
     @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
     @author Travis Lehman - http://www.twitter.com/tehtrav
-    @version 1.0
+    @version 1.1
     
     A colorful & vibrant Espresso theme, 
     mostly focused on front-end languages.
@@ -20,10 +20,11 @@
     spell-check: disabled;
 }
 
-comment {
-	color: rgba(255,255,255,.35);
+comment,
+less comment punctuation,
+css comment punctuation {
+	color: rgba(255,255,255,.30);
 	font-style: italic;
-	background: none;
 }
 
 tag {
@@ -96,12 +97,6 @@ variable {
 css, less {
     spell-check: disabled;
 }
-
-comment.line.less, 
-comment.block.less {
-	background: rgba(255,255,255,0);
-}
-
 
 css property-list punctuation,
 less property-list punctuation,
